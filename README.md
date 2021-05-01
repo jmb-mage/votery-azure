@@ -22,23 +22,11 @@ Create an SSH key where you plan to work
 * Add your ssh to shh agent `ssh-add` 
 * Check if your ssh is already added `ssh-add -l`
 
-### Firebase
-Install firebase tools globally
-* `npm install -g firebase-tools`
-* `firebase login` - login to firebase
-* if running firebase inside a container run `firebase login --no-localhost` instead
-* install functions/secrets/firebase-secrets.json
-   * goto https://console.firebase.google.com
-   * select Votery project and click Project Settings gear
-   * click service accounts
-   * click `Generate new private key`
-   * download the json and rename it to `firebase-secrets.json`
-   * copy firebase-secrets.json to `@/functions/secrets`
+### API
+todo: replace firebase with Azure oauth, data factory and api
 
 ### Installation
 ```
-yarn
-cd functions
 yarn
 ```
 
