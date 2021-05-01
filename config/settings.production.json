@@ -1,0 +1,5 @@
+{
+  "apiHost": "https://us-central1-votery-1bfb6.cloudfunctions.net",
+  "apiPort": "",
+  "apiPath": "/voterifyApi/"
+}

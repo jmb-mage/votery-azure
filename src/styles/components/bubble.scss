@@ -1,0 +1,34 @@
+@import '../typography';
+
+.bubble {
+  width:320px;
+  height:auto;
+  margin:auto;
+  font: $font;
+  line-height: $line-height;
+  p {
+    padding-bottom: $line-height;
+  }
+}
+
+.home-bubble-container {
+  font: $font;
+  line-height: $line-height;
+  p {
+    padding-bottom: $line-height;
+  }
+
+  a {
+    color:white;
+    font-weight: bold;
+  }
+}
+
+.bubble-fat {
+  width: 400px;
+  height: auto;
+}
+
+.bubble-outline {
+  border: 3px solid blue;
+}
